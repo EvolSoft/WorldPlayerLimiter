@@ -1,0 +1,46 @@
+name: WorldPlayerLimiter
+main: WorldPlayerLimiter\Main
+version: "0.4 B2"
+api: [1.4.0]
+load: STARTUP
+author: EvolSoft
+description: Limit Players for each world.
+website: https://www.evolsoft.tk
+
+commands:
+ worldplayerlimiter:
+   aliases: [wpl, wl, worldlimit]
+   description: WorldPlayerLimiter commands.
+permissions:
+ worldplayerlimiter:
+  default: true
+  description: WorldPlayerLimiter permissions.
+  children:
+   worldplayerlimiter.use-sign:
+    default: true
+    description: Allows player to use WorldPlayerLimiter signs.
+   worldplayerlimiter.create-sign:
+    default: op
+    description: Allows player to create WorldPlayerLimiter signs.
+   worldplayerlimiter.commands:
+    default: op
+    description: WorldPlayerLimiter commands permissions.
+    children:
+      worldplayerlimiter.commands.help:
+       default: op
+       description: WorldPlayerLimiter command Help permission.
+      worldplayerlimiter.commands.info:
+       default: op
+       description: WorldPlayerLimiter command Info permission.
+      worldplayerlimiter.commands.reload:
+       default: op
+       description: WorldPlayerLimiter command Reload permission.
+      worldplayerlimiter.commands.stats:
+       default: op
+       description: WorldPlayerLimiter command Stats permission.
+      worldplayerlimiter.commands.addworld:
+       default: op
+       description: WorldPlayerLimiter command Add World permission.
+      worldplayerlimiter.commands.delworld:
+       default: op
+       description: WorldPlayerLimiter command Delete World permission.
