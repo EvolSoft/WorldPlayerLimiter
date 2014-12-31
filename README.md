@@ -42,12 +42,12 @@ You can also place signs to teleport players between worlds. (read documentation
 
 *You must have the permission: "worldplayerlimiter.create-sign" to create signs and you must have the permission "worldplayerlimiter.use-sign" to use signs.*
 
-***Line 1:*** [WPL]
-***Line 2:*** <worldname>
-***Line 3 (optional):*** custom sign name
-
+<dd><i><b>Line 1:</b></i> [WPL]</dd>
+<dd><i><b>Line 2:</b></i> &lt;worldname&gt;</dd>
+<dd><i><b>Line 3 (optional):</b></i> custom sign name</dd>
+<br>
 *Output Examples:*
-
+<br>
 Input:
 Line 1: [WPL]
 Line 2: world
