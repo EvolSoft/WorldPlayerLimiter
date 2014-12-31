@@ -57,6 +57,7 @@ You can also place signs to teleport players between worlds. (read documentation
 <dd><i><b>Line 2:</b> current players/limit</i></dd>
 <dd><i><b>Line 3:</b> Click to join.</i></dd>
 (Sign target: world)
+<br>
 *else*
 <dd><i><b>Line 1:</b> world</i></dd>
 <dd><i><b>Line 2:</b></i> Click to join.</i></dd>
@@ -72,6 +73,7 @@ You can also place signs to teleport players between worlds. (read documentation
 <dd><i><b>Line 2:</b> current players/limit</i></dd>
 <dd><i><b>Line 3:</b> Click to join.</i></dd>
 (Sign target: world)
+<br>
 *else*
 <dd><i><b>Line 1:</b> custom</i></dd>
 <dd><i><b>Line 2:</b></i> Click to join.</i></dd>
