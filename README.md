@@ -51,7 +51,7 @@ You can also place signs to teleport players between worlds. (read documentation
 *Input:*
 <dd><i><b>Line 1:</b></i> [WPL]</dd>
 <dd><i><b>Line 2:</b></i> world</dd>
-*Output:*
+*Output:*<br>
 *if the target world has player limit, the output will be:*
 <dd><i><b>Line 1:</b> world</i></dd>
 <dd><i><b>Line 2:</b> current players/limit</i></dd>
@@ -66,7 +66,7 @@ You can also place signs to teleport players between worlds. (read documentation
 <dd><i><b>Line 1:</b></i> [WPL]</dd>
 <dd><i><b>Line 2:</b></i> world</dd>
 <dd><i><b>Line 3:</b></i> custom</dd>
-*Output:*
+*Output:*<br>
 *if the target world has player limit, the output will be:*
 <dd><i><b>Line 1:</b> custom</i></dd>
 <dd><i><b>Line 2:</b> current players/limit</i></dd>
@@ -77,6 +77,7 @@ You can also place signs to teleport players between worlds. (read documentation
 <dd><i><b>Line 2:</b></i> Click to join.</i></dd>
 (Sign target: world)
 <br>
+
 **Commands:**
 
 <dd><i><b>/worldplayerlimiter</b> - WorldPlayerLimiter commands (aliases: [wpl, wl, worldlimit])</i></dd>
