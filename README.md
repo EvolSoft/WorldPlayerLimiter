@@ -53,29 +53,29 @@ You can also place signs to teleport players between worlds. (read documentation
 <dd><i><b>Line 2:</b></i> world</dd>
 *Output:*
 *if the target world has player limit, the output will be:*
-<dd><i><b>Line 1:</b></i> world</dd>
+<dd><i><b>Line 1:</b> world</i></dd>
 <dd><i><b>Line 2:</b> current players/limit</i></dd>
-<dd><i><b>Line 3: Click to join.</i></dd>
+<dd><i><b>Line 3:</b> Click to join.</i></dd>
 (Sign target: world)
-else
-Line 1: world
-Line 2: Click to join.
-Sign target: world
-
-Input:
-Line 1: [WPL]
-Line 2: world
-Line 3: custom
-Output:
-if the target world has player limit, the output will be:
-Line 1: custom
-Line 2: current players/limit
-Line 3: Click to join.
-Sign target: world
-else
-Line 1: custom
-Line 2: Click to join.
-Sign target: world
+*else*
+<dd><i><b>Line 1:</b> world</i></dd>
+<dd><i><b>Line 2:</b></i> Click to join.</i></dd>
+(Sign target: world)
+<br>
+*Input:*
+<dd><i><b>Line 1:</b></i> [WPL]</dd>
+<dd><i><b>Line 2:</b></i> world</dd>
+<dd><i><b>Line 3:</b></i> custom</dd>
+*Output:*
+*if the target world has player limit, the output will be:*
+<dd><i><b>Line 1:</b> custom</i></dd>
+<dd><i><b>Line 2:</b> current players/limit</i></dd>
+<dd><i><b>Line 3:</b> Click to join.</i></dd>
+(Sign target: world)
+*else*
+<dd><i><b>Line 1:</b> custom</i></dd>
+<dd><i><b>Line 2:</b></i> Click to join.</i></dd>
+(Sign target: world)
 <br>
 **Commands:**
 
