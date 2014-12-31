@@ -89,7 +89,7 @@ You can also place signs to teleport players between worlds. (read documentation
 <dd><i><b>/wpl stats &lt;worldname&gt;</b> - Get world stats</i></dd>
 <br>
 **Permissions:**
-<br>
+<br><br>
 - <dd><i><b>worldplayerlimiter.*</b> - WorldPlayerLimiter permissions.</i></dd>
 - <dd><i><b>worldplayerlimiter.use-sign</b> - Allows player to use WorldPlayerLimiter signs.</i></dd>
 - <dd><i><b>worldplayerlimiter.create-sign</b> - Allows player to create WorldPlayerLimiter signs.</i></dd>
